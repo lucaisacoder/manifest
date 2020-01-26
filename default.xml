@@ -12,11 +12,11 @@
            sync-j="4" />
 
   <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
-  <project path="proj_repo/cmake" name="proj_repo-cmake" />
-  <project path="proj_repo/config" name="proj_repo-config" />
-  <project path="proj_repo/output" name="proj_repo-output" />
-  <project path="proj_repo/public" name="proj_repo-public" />
-  <project path="proj_repo/core" name="proj_repo-core" />
-  <project path="proj_repo/osal" name="proj_repo-osal" />
-  <project path="proj_repo/app" name="proj_repo-app" />
+  <project path="tools/cmake" name="proj_repo-cmake" />
+  <project path="tools/config" name="proj_repo-config" />
+  <project path="output" name="proj_repo-output" />
+  <project path="modules/public" name="proj_repo-public" />
+  <project path="modules/core" name="proj_repo-core" />
+  <project path="modules/osal" name="proj_repo-osal" />
+  <project path="modules/app" name="proj_repo-app" />
 </manifest>
