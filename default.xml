@@ -28,5 +28,5 @@
   <project path="modules/osal" name="proj_repo-osal" />
   <project path="modules/app" name="proj_repo-app" />
   
-  <project path="tools/config/kconfiglib" name="Kconfiglib" />
+  <project path="tools/kconfiglib" name="Kconfiglib" />
 </manifest>
