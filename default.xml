@@ -7,11 +7,11 @@
           fetch="https://github.com/lucaisacoder/"
           review="https://github.com/lucaisacoder/" />
   
-  <remote name="kconfiglib"
+  <!-- <remote name="kconfiglib"
           alias="origin"
           fetch="https://github.com/ulfalizer/"
           review="https://github.com/ulfalizer/"
-          revision="refs/tags/v14.0.0" />
+          revision="refs/tags/v14.0.0" /> -->
                                                           
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
   <default revision="master"
@@ -27,5 +27,5 @@
   <project path="modules/osal" name="proj_repo-osal" />
   <project path="modules/app" name="proj_repo-app" /> 
   
-  <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" />
+  <!-- <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" /> -->
 </manifest>
