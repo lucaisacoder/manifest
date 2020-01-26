@@ -2,14 +2,14 @@
 <manifest>
 
   <!-- remote: name 名称，fetch 远程地址。可以有多个remote，通过project.remote可指定不同的remote -->
-  <remote name="proj_repo"
+  <!-- remote name="proj_repo"
           alias="origin"
           fetch="https://github.com/lucaisacoder/"
-          review="https://github.com/lucaisacoder/" />
+          review="https://github.com/lucaisacoder/" /> -->
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
-  <default revision="master"
+  <!-- default revision="master"
            remote="proj_repo"
-           sync-j="4" />
+           sync-j="4" /> -->
   
   <remote name="kconfiglib"
           alias="origin"
@@ -19,13 +19,13 @@
            remote="kconfiglib"
            sync-j="4" />
 
-  <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
+  <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name 
   <project path="tools/cmake" name="proj_repo-cmake" />
   <project path="tools/config" name="proj_repo-config" />
   <project path="output" name="proj_repo-output" />
   <project path="modules/public" name="proj_repo-public" />
   <project path="modules/core" name="proj_repo-core" />
   <project path="modules/osal" name="proj_repo-osal" />
-  <project path="modules/app" name="proj_repo-app" />
+  <project path="modules/app" name="proj_repo-app" /> -->  
   <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" />
 </manifest>
