@@ -14,7 +14,7 @@
           revision="refs/tags/v14.0.0" /> -->
                                                           
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
-  <default revision="dev"
+  <default revision="master"
            remote="proj_repo"
            sync-j="4" />
 
