@@ -27,6 +27,5 @@
   <project path="modules/core" name="proj_repo-core" />
   <project path="modules/osal" name="proj_repo-osal" />
   <project path="modules/app" name="proj_repo-app" />
-  
-  <project path="tools/kconfiglib" name="Kconfiglib" />
+  <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" />
 </manifest>
