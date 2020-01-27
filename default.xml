@@ -5,7 +5,7 @@
   <remote name="proj_repo"
           alias="origin"
           fetch="https://github.com/lucaisacoder/"
-          review="ssh://git@github.com:lucaisacoder/" />
+          review="ssh://git@github.com/" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
