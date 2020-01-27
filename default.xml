@@ -21,12 +21,12 @@
            sync-j="32" />
 
   <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
-  <project path="tools/cmake" name="lucaisacoder/proj_repo-cmake" />
-  <project path="tools/config" name="lucaisacoder/proj_repo-config" />
-  <project path="output" name="lucaisacoder/proj_repo-output" />
-  <project path="modules/public" name="lucaisacoder/proj_repo-public" />
-  <project path="modules/core" name="lucaisacoder/proj_repo-core" />
-  <project path="modules/osal" name="lucaisacoder/proj_repo-osal" />
+  <project path="tools/cmake" name="lucaisacoder/proj_repo-cmake" remote="proj_repo" revision="dev" />
+  <project path="tools/config" name="lucaisacoder/proj_repo-config" remote="proj_repo" revision="dev" />
+  <project path="output" name="lucaisacoder/proj_repo-output" remote="proj_repo" revision="dev" />
+  <project path="modules/public" name="lucaisacoder/proj_repo-public" remote="proj_repo" revision="dev" />
+  <project path="modules/core" name="lucaisacoder/proj_repo-core" remote="proj_repo" revision="dev" />
+  <project path="modules/osal" name="lucaisacoder/proj_repo-osal" remote="proj_repo" revision="dev" />
   <project path="modules/app" name="lucaisacoder/proj_repo-app" remote="proj_repo" revision="dev" /> 
   
   <!-- <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" /> -->
