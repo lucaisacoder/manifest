@@ -4,8 +4,8 @@
   <!-- remote: name 名称，fetch 远程地址。可以有多个remote，通过project.remote可指定不同的remote -->
   <remote name="proj_repo"
           alias="origin"
-          fetch="https://github.com/lucaisacoder/"
-          review="https://github.com/lucaisacoder/" />
+          fetch="ssh://git@github.com/"
+          review="ssh://git@github.com/" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
@@ -14,7 +14,7 @@
           revision="refs/tags/v14.0.0" /> -->
                                                           
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
-  <default revision="master"
+  <default revision="dev"
            remote="proj_repo"
            sync-c="true"
            sync-j="32" />
@@ -26,7 +26,7 @@
   <project path="modules/public" name="proj_repo-public" />
   <project path="modules/core" name="proj_repo-core" />
   <project path="modules/osal" name="proj_repo-osal" />
-  <project path="modules/app" name="proj_repo-app" remote="proj_repo" revision="dev" /> 
+  <project path="modules/app" name="proj_repo-app" remote="proj_repo" revision="refs/for/dev" /> 
   
   <!-- <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" /> -->
   <!-- <include name="include/platform.xml" /> -->
