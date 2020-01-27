@@ -7,7 +7,7 @@
   <remote name="proj_repo"
           alias="origin"
           fetch="ssh://git@github.com"
-          review="https://github.com/lucaisacoder/" />
+          review="https://github.com/" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
@@ -27,7 +27,7 @@
   <project path="modules/public" name="lucaisacoder/proj_repo-public" />
   <project path="modules/core" name="lucaisacoder/proj_repo-core" />
   <project path="modules/osal" name="lucaisacoder/proj_repo-osal" />
-  <project path="modules/app" name="lucaisacoder/proj_repo-app" remote="proj_repo" revision="dev" /> 
+  <project path="modules/app" name="lucaisacoder/proj_repo-app.git" remote="proj_repo" revision="dev" /> 
   
   <!-- <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" /> -->
   <!-- <include name="include/platform.xml" /> -->
