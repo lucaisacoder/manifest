@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- remote: name 名称，fetch 远程地址。可以有多个remote，通过project.remote可指定不同的remote -->
+  <remote name="private"
+          fetch="ssh://git@github.com" />
+  <remote name="github"
+          fetch="git://github.com/" />
   <remote name="proj_repo"
           alias="origin"
-          fetch="ssh://git@github.com"
-          review="ssh://git@github.com" />
+          fetch="https://github.com"
+          review="https://@github.com" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
@@ -13,7 +15,6 @@
           review="https://github.com/ulfalizer/"
           revision="refs/tags/v14.0.0" /> -->
                                                           
-  <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
   <default revision="dev"
            remote="proj_repo"
            sync-c="true"
