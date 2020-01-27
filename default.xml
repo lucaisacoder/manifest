@@ -15,7 +15,7 @@
           review="https://github.com/ulfalizer/"
           revision="refs/tags/v14.0.0" /> -->
                                                           
-  <default revision="dev"
+  <default revision="refs/heads/dev"
            remote="proj_repo"
            sync-c="true"
            sync-j="32" />
