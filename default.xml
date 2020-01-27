@@ -7,7 +7,7 @@
   <remote name="proj_repo"
           alias="origin"
           fetch="ssh://git@github.com/"
-          review="github.com/lucaisacoder" />
+          review="https://android-review.googlesource.com/" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
