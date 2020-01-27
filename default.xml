@@ -4,8 +4,8 @@
   <!-- remote: name 名称，fetch 远程地址。可以有多个remote，通过project.remote可指定不同的remote -->
   <remote name="proj_repo"
           alias="origin"
-          fetch="https://github.com/lucaisacoder/"
-          review="https://github.com/lucaisacoder/" />
+          fetch="ssh://git@github.com"
+          review="ssh://git@github.com" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
@@ -20,13 +20,13 @@
            sync-j="32" />
 
   <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
-  <project path="tools/cmake" name="proj_repo-cmake" />
-  <project path="tools/config" name="proj_repo-config" />
-  <project path="output" name="proj_repo-output" />
-  <project path="modules/public" name="proj_repo-public" />
-  <project path="modules/core" name="proj_repo-core" />
-  <project path="modules/osal" name="proj_repo-osal" />
-  <project path="modules/app" name="proj_repo-app" remote="proj_repo" revision="dev" /> 
+  <project path="tools/cmake" name="lucaisacoder/proj_repo-cmake" />
+  <project path="tools/config" name="lucaisacoder/proj_repo-config" />
+  <project path="output" name="lucaisacoder/proj_repo-output" />
+  <project path="modules/public" name="lucaisacoder/proj_repo-public" />
+  <project path="modules/core" name="lucaisacoder/proj_repo-core" />
+  <project path="modules/osal" name="lucaisacoder/proj_repo-osal" />
+  <project path="modules/app" name="lucaisacoder/proj_repo-app" remote="proj_repo" revision="dev" /> 
   
   <!-- <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" /> -->
   <!-- <include name="include/platform.xml" /> -->
