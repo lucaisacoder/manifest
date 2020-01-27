@@ -5,7 +5,7 @@
   <remote name="proj_repo"
           alias="origin"
           fetch="https://github.com/lucaisacoder/"
-          review="https://github.com/lucaisacoder/“ />
+          review="https://github.com/lucaisacoder/" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
