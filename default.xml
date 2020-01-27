@@ -26,7 +26,7 @@
   <project path="modules/public" name="proj_repo-public" />
   <project path="modules/core" name="proj_repo-core" />
   <project path="modules/osal" name="proj_repo-osal" />
-  <project path="modules/app" name="proj_repo-app" remote="proj_repo" revision="refs/for/dev" /> 
+  <project path="modules/app" name="proj_repo-app" remote="proj_repo" revision="dev" /> 
   
   <!-- <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" /> -->
   <!-- <include name="include/platform.xml" /> -->
