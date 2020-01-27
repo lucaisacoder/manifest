@@ -4,8 +4,8 @@
   <!-- remote: name 名称，fetch 远程地址。可以有多个remote，通过project.remote可指定不同的remote -->
   <remote name="proj_repo"
           alias="origin"
-          fetch="ssh://git@github.com/"
-          review="ssh://git@github.com/" />
+          fetch="ssh://lucaisacoder@github.com/"
+          review="ssh://lucaisacoder@github.com/" />
   
   <!-- <remote name="kconfiglib"
           alias="origin"
