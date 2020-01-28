@@ -4,3 +4,9 @@ download:
   repo forall -c git checkout -b dev origin/dev
   repo forall -c git push
   
+usage:
+  cd ./tools/cmake/
+  mkdir build
+  cd build
+  cmake ..
+  make
