@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="private"
+          fetch="ssh://git@github.com" />
+  <remote name="github"
+          fetch="git://github.com/" />
+  <remote name="proj_repo"
+          alias="origin"
+          fetch="https://github.com/"
+          review="https://github.com/lucaisacoder/" />
+  
+  <!-- <remote name="kconfiglib"
+          alias="origin"
+          fetch="https://github.com/ulfalizer/"
+          review="https://github.com/ulfalizer/"
+          revision="refs/tags/v14.0.0" /> -->
+                                                          
+  <default revision="refs/heads/cmake_modules"
+           remote="proj_repo"
+           sync-c="true"
+           sync-j="32" />
+
+  <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
+  <project path="tools/cmake" name="lucaisacoder/proj_repo-cmake" remote="proj_repo" revision="cmake_modules" />
+  <project path="tools/config" name="lucaisacoder/proj_repo-config" remote="proj_repo" revision="cmake_modules" />
+  <project path="output" name="lucaisacoder/proj_repo-output" remote="proj_repo" revision="cmake_modules" />
+  <project path="components/public" name="lucaisacoder/proj_repo-public" remote="proj_repo" revision="cmake_modules" />
+  <project path="applications/core" name="lucaisacoder/proj_repo-core" remote="proj_repo" revision="cmake_modules" />
+  <project path="components/osal" name="lucaisacoder/proj_repo-osal" remote="proj_repo" revision="cmake_modules" />
+  <project path="components/app" name="lucaisacoder/proj_repo-app" remote="proj_repo" revision="cmake_modules" /> 
+  
+  <!-- <project path="tools/kconfiglib" name="Kconfiglib" remote="kconfiglib" /> -->
+  <!-- <include name="include/platform.xml" /> -->
+</manifest>
